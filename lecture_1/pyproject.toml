@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "innowise_laboratory"
+version = "0.1.0"
+authors = [
+    {name = "Vladislav", email = "vladislav.grechushkin.666@gmail.com"},
+]
+dependencies = [
+    "colorama>=0.4.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
